@@ -39,18 +39,11 @@ jobs:
         with:
           root_file: paper.tex
           working_directory: _build/exports/paper_tex
+        
+      - name: move paper.pdf up
+        run: mv _build/exports/paper_tex/paper.pdf _build/exports/paper.pdf
 
       - uses: actions/upload-artifact@v3
         with:
           name: output-files
           path: _build/exports/
-
-      - uses: actions/upload-artifact@v3
-        with:
-          name: output-pdf
-          path: _build/exports/paper_tex/paper.pdf
-
-      - uses: actions/upload-artifact@v3
-        with:
-          name: output-docx
-          path: _build/exports/paper.docx
