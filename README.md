@@ -6,9 +6,9 @@ Use this repository as a starting point (template) for writing a paper using [My
 1. Click "Use this template" at the top. This will prompt you to create a new repository of your own based on this one.
 2. Go to your repository, edit the paper.md file from within GitHub (click the file, then click the pen icon to edit it). You can preview what the markdown will look like when converted although the final output will be slightly different.
 3. Commit your changes.
-4. GitHub will automatically build the project to docx, LaTeX and PDF format and upload them as a release "latest". You can find this at [releases/tag/latest/](releases/tag/latest/).
+4. GitHub will automatically build the project to docx, LaTeX and PDF format and upload them as a release "latest". You can find this at [releases/tag/latest/](https://github.com/neural-reckoning/myst-paper-template/releases/tag/latest).
 
-You can track the build process at [actions/](actions/) and if there are errors you can check the logs there.
+You can track the build process at [actions/](https://github.com/neural-reckoning/myst-paper-template/actions) and if there are errors you can check the logs there.
 
 Alternatively, you can run locally (see below) but you need to install some tools.
 
