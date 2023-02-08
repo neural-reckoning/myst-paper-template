@@ -8,6 +8,7 @@ project:
   github: https://github.com/neural-reckoning/myst-paper-template
   # bibliography: []
 site:
+  # template: https://github.com/executablebooks/myst-article-theme.git
   template: book-theme
   # title:
   # logo:

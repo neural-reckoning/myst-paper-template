@@ -10,9 +10,8 @@ authors:
 license: CC-BY-4.0
 export:
   - format: docx
-  - format: pdf
-    template: arxiv_two_column
-    output: exports/paper.pdf
+  - format: tex+pdf
+    template: lapreprint
 ---
 
 +++ {"part": "abstract"}
