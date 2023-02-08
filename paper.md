@@ -10,7 +10,7 @@ authors:
 license: CC-BY-4.0
 export:
   - format: docx
-  - format: tex+pdf
+  - format: tex
     template: lapreprint
 ---
 
