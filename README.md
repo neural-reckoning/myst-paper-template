@@ -12,11 +12,13 @@ You can track the build process at [actions/](https://github.com/neural-reckonin
 
 Alternatively, you can run locally (see below) but you need to install some tools.
 
-## TO DO
+## Documentation
 
-* Static website how?
+* [Authoring with MyST](https://myst-tools.org/docs/mystjs)
 
-## Install node locally
+## Install and run locally
+
+### Install node locally
 
 Install [NodeJS](https://nodejs.org/en/download/).
 
@@ -32,13 +34,13 @@ Create config file:
 myst init
 ```
 
-## Run node locally
+### Run node locally
 
 ```
 myst start
 ```
 
-## Build docx and pdf
+### Build docx and pdf
 
 To compile the pdf you need a latex distribution installed with ``latexmk`` package that requires perl to be installed.
 For Windows you can use [MikTeX](https://miktex.org/) and [Starbwerry Perl](https://strawberryperl.com/).
@@ -48,3 +50,7 @@ myst build paper.md
 ```
 
 Built files will be found in ``_build\exports``.
+
+## TO DO
+
+* Static website how?
