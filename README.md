@@ -28,7 +28,7 @@ Install myst:
 npm install -g myst-cli
 ```
 
-Create config file:
+If you cloned this repository, you don't need to do this but for reference if you're starting afresh, create config file via:
 
 ```
 myst init
