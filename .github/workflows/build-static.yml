@@ -33,3 +33,8 @@ jobs:
         
       - name: build with myst
         run: myst build paper.md
+
+      - uses: actions/upload-artifact@v3
+        with:
+          name: output-files
+          path: _build/exports/
