@@ -47,3 +47,13 @@ jobs:
         with:
           name: output-files
           path: _build/exports/
+          
+      - uses: marvinpinto/action-automatic-releases@latest
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          automatic_release_tag: "latest"
+          prerelease: true
+          title: "Latest"
+          files: |
+            _build/exports/paper.docx
+            _build/exports/paper.pdf
