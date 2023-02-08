@@ -33,6 +33,11 @@ jobs:
         
       - name: build with myst
         run: myst build paper.md
+        
+      - name: Compile LaTeX document
+        uses: xu-cheng/latex-action@master
+        with:
+          root_file: _build/exports/paper.tex
 
       - uses: actions/upload-artifact@v3
         with:
