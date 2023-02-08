@@ -37,7 +37,8 @@ jobs:
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@master
         with:
-          root_file: _build/exports/paper_tex/paper.tex
+          root_file: paper.tex
+          working_directory: _build/exports/paper_tex
 
       - uses: actions/upload-artifact@v3
         with:
